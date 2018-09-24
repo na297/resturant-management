@@ -1,0 +1,17 @@
+body{
+	background-image: url(../images/f1.jpg);
+	background-size: cover;
+	opacity: 0.9;
+}
+div{
+	border: 3px solid black;
+	border-radius: 20px;
+	background-color: white;
+	opacity: 0.8;
+	width:95%;
+	margin:5%;
+
+}
+div table{
+	padding: 10%;
+}

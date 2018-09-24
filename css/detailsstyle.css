@@ -1,0 +1,51 @@
+body{
+	background-image: url(../images/f1.jpg);
+	background-size: cover;
+	opacity: 0.9;
+}
+div{
+	border: 3px solid black;
+	border-radius: 20px;
+	background-color: white;
+	opacity: 0.8;
+	width:50%;
+	margin:5%;
+	left: 20%;
+
+}
+div h3{
+	margin-left: 10px;
+	text-align: left;
+}
+div input[type='submit']{
+	width: auto;
+	padding: 15px 20px;
+	background-color: gray;
+	margin: 20px;
+	font-size:20px;
+	color: white;
+	font-weight: 100%;
+	border:none;
+}
+
+div input[type='submit']:hover{
+	background-color: red;
+	opacity: 0.8;
+}
+div input{
+	background: transparent;
+	border: none;
+	border-bottom: 1.7px solid black;
+	width: 91%;
+	padding: 10px;
+}  
+
+
+
+@media(max-width: 800px){
+	div {
+		width: 95%;
+
+		
+	}
+}
